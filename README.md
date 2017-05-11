@@ -1,4 +1,4 @@
-# GeodesicsInHeat
+# Geodesics In Heat
 Implementation of Geodesics in Heat by [Crane et al.] on triangulated mesh data structure.
 
 Note: Requires Eigen 3.2.4 and assumes it is in /usr/local/Cellar/eigen/3.2.4/include/eigen3/
