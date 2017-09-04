@@ -15,7 +15,7 @@ SRCS := $(shell ls -1 $(ROOT_DIR)/src/DGP/*.cpp | sed 's/ /\\ /g') \
         $(shell ls -1 $(ROOT_DIR)/src/DGP/Graphics/*.cpp | sed 's/ /\\ /g') \
         $(shell ls -1 $(ROOT_DIR)/src/*.cpp | sed 's/ /\\ /g')
 OBJS := $(SRCS:.cpp=.o)
-MAIN := simplify
+MAIN := geodesic
 
 #
 # The following part of the makefile is generic; it can be used to
