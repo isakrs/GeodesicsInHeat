@@ -7,7 +7,8 @@ Note: Requires Eigen 3.2.4 and assumes it is in /usr/local/Cellar/eigen/3.2.4/in
 Example usage
 
 On Mac:
-```make -f Makefile.osx
+```
+make -f Makefile.osx
 ./geodesic data/bunny_1k.off
 ```
 
